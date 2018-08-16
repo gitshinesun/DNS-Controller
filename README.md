@@ -7,7 +7,7 @@ This is windows desktop application to active and deactive the dns.
   - Windows XP, Windows 7, Windows 10
   
 ### DNS Active
-    ```ruby
+  ```ruby
     string[] Dns = { DnsString };
     var CurrentInterface = GetActiveEthernetOrWifiNetworkInterface();
     if (CurrentInterface == null) return;
@@ -57,9 +57,10 @@ This is windows desktop application to active and deactive the dns.
             }
         }
     }
-    ```
+  ```
+  
 ### DNS Deactive
-    ```ruby
+  ```ruby
     var CurrentInterface = GetActiveEthernetOrWifiNetworkInterface();
     if (CurrentInterface == null) return;
 
@@ -106,7 +107,7 @@ This is windows desktop application to active and deactive the dns.
             }
         }
     }
-    ```
+  ```
     
  ### Get IP
   ```ruby
