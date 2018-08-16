@@ -130,9 +130,6 @@ This is windows desktop application to active and deactive the dns.
             {
                 if (objMO["Caption"].Equals(CurrentInterface.Description))
                 {
-                    //ipAdresses = (string[])objMO["IPAddress"];
-                    //subnets = (string[])objMO["IPSubnet"];
-                    //gateways = (string[])objMO["DefaultIPGateway"];
                     dnses = (string[])objMO["DNSServerSearchOrder"];
 
                     break;
@@ -151,9 +148,6 @@ This is windows desktop application to active and deactive the dns.
             {
                 if (objMO["Caption"].Equals(CurrentInterface.Description))
                 {
-                    //ipAdresses = (string[])objMO["IPAddress"];
-                    //subnets = (string[])objMO["IPSubnet"];
-                    //gateways = (string[])objMO["DefaultIPGateway"];
                     dnses = (string[])objMO["DNSServerSearchOrder"];
 
                     break;
