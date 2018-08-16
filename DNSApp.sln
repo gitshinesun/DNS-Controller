@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNSApp", "DNSApp\DNSApp.csproj", "{E848B73B-6F60-4A76-8775-29FEBEC03614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService", "ProxyService\ProxyService.csproj", "{D9D9F53B-6A63-4F3A-BB07-D0646553BC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyMonitor", "ProxyMonitor\ProxyMonitor.csproj", "{51260344-8DC7-4F96-A47B-D27BF8F7AF74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E848B73B-6F60-4A76-8775-29FEBEC03614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E848B73B-6F60-4A76-8775-29FEBEC03614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E848B73B-6F60-4A76-8775-29FEBEC03614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E848B73B-6F60-4A76-8775-29FEBEC03614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D9F53B-6A63-4F3A-BB07-D0646553BC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D9F53B-6A63-4F3A-BB07-D0646553BC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D9F53B-6A63-4F3A-BB07-D0646553BC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D9F53B-6A63-4F3A-BB07-D0646553BC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51260344-8DC7-4F96-A47B-D27BF8F7AF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51260344-8DC7-4F96-A47B-D27BF8F7AF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51260344-8DC7-4F96-A47B-D27BF8F7AF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51260344-8DC7-4F96-A47B-D27BF8F7AF74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
